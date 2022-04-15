@@ -1,0 +1,19 @@
+.home{
+    padding: 2rem 9%;
+    position: relative;
+}
+
+.titleproducts{
+    font-family: sans-serif;
+    text-align: center;
+    color: darkgreen;
+}
+
+.productscard{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+
+}
