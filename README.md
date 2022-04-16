@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# ¿Cuáles son las ceremonias más importantes de un Sprint y cuál es la idea de cada una?
+1. Sprint planning, es una reunión que se realiza para la planeación de las actividades que se llevaran a cabo durante el sprint y la estimación de estas.
+2. Daily Scrum consta de una reunión diaria de 15 minutos en la que se discute las tareas realizadas, las que faltan por realizar y los inconvenientes que surgen para continuar con el sprint.
+3. Sprint Review, es la reunión que ocurre al final del sprint donde se presenta el incremento desarrollado del producto.
+4. Sprint Retrospective, esta reunión ocurre justo después del sprint review. El objetivo es realizar un retrospectiva sobre el último sprint e identificar las posibles mejoras para el siguiente.
+5.Sprint Grooming o Refinement. Su objetivo es redefenir o refinar el baclokg.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ¿Qué son los Wireframes? Nombra al menos una herramienta que podamos utilizar.
+Es una representación visual  con el diseño de las posibles vistas de las páginas a desarrollar, estos se usan al incio del desarrollo de la aplicación. Una de las herrmientas que nos ayudan a realizar este diseño, es FIGMA.
 
-## Available Scripts
+# Explicar la diferencia entre var, let y const. Y dar un ejemplo en qué caso se utilizará.
+Para hablar de las diferencias, es necesario aclarar que la declaracion de una variable con "var" se emplea en el standar de ES5, el cual permite hacer modificaciones en los valores almacenados.
+Para "Let" y "Const" se emplea en el standar de ES6. Para el caso de "let" permite hacer modificaciones en los valores almacenados, mientras que "const" al ser una constante no permite realizarcambios en los valores una vez sean declarados.
 
-In the project directory, you can run:
+# ¿Cuáles son los tres comandos que se pueden utilizar para crear una nueva rama llamada rama-1?
+Los comandos que se pueden emplear son:
+a. git branch rama-1
+b. git checkout -b rama-1
+c. git checkou -b  rama-1 origin/rama-1
 
-### `npm start`
+# Explicar la diferencia entre git merge y git rebase.
+- git rebase. Al realizar este comando hace  como si hubieras cambiado de rama y que apartir de alli empiezas a trabajar, es decir, re-escribe el historial de la rama principal integrando los commits de la otra rama en la rama principal
+- git merge. Al realizar este comando se junta el historial de ambas ramas, es decir el nuevo commit hereda los cambios de las ramas mergeadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# ¿Cuál es la diferencia entre Pull Request (PR) y el comando git pull?
+- git pull. Este comando nos permite acutalizar en nuestro repositorio local la rama del repositorio remoto
+- PR. Es una petición que se realizar a un repositorio remoto para que se agregen los commits de una rama, si este PR es aceptado se agregan los cambios al repositorio remoto.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# ¿Qué es el Virtual DOM?
+Es una representción virtual de la UI que se mantiene en sincronia con el DOM virtual, por medio de ReactDom
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Dado el siguiente codePen, el cual solo tiene un HTML, por medio de css llegar a esta respuesta. Imagen. (Para mostrar los servicios debes usar CSS Flexbox o CSS Grid).
+La respuesta se muestra a continuación https://codepen.io/endyleyms/pen/popQRjz?editors=1100
