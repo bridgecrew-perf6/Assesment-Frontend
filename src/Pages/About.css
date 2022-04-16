@@ -1,5 +1,18 @@
 .about{
-    padding: 2rem 9%;
+    padding: 4rem 9%;
     position: relative;
+    background-image: url(../image/background);
     
+}
+.contenedorimgtext{
+    display: flex;
+    justify-content: space-between;
+}
+.fotowendy{
+    width: 30%;
+    height: 30%;
+}
+.contenerdortext{
+    display: flex;
+    flex-direction: column;
 }

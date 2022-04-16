@@ -16,14 +16,14 @@ function ProductDetail (){
     
    
     return(
-        <div>
+        <div className="productdetail">
           <div>{product.title}</div>
-          <img src={product.image} alt ="" />
+          <img className="imagecard" src={product.image} alt ="" />
           <div>
             <div>
               Precio (USD):{product.price}
             </div>
-            <ul>
+            <ul className="list">
               <li>Categoría:{product.category}</li>
               <li>Descripción:{product.description}</li>
             </ul>
