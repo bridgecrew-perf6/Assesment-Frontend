@@ -1,6 +1,8 @@
 .home{
     padding: 2rem 9%;
     position: relative;
+    background-image: url(../image/background);
+    
 }
 
 .titleproducts{

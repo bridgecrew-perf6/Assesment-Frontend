@@ -22,3 +22,10 @@
     text-align: center;
     color: darkgreen;
 }
+.countdown{
+    padding: 0 0.5rem;
+    border: darkgreen;
+    background-color: darkgreen;
+    border-radius: 1.4rem;
+    color: #fff;
+}
