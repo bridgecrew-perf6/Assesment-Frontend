@@ -7,10 +7,10 @@ import "./ProductCard.css";
 
 function ProductCard ({id, title, image}){
     const [countdown, setCountdown] = useState(true);
-    const [button, setButton]=useState();
+    const [button, setButton]=useState('Detalle del producto');
     const handlerCompleted = () => {
         setCountdown(false);
-        setButton('Offer expired');
+        setButton('La oferta expiró');
       };
 
 
@@ -19,7 +19,7 @@ function ProductCard ({id, title, image}){
                 <img className="imagecard" src={image} alt=""/>
                 <p className="titleproduct">{title}</p>
                 <Countdown  className="countdown" date={Date.now() + parseInt((Math.random() * (300000)), 10)} onComplete={handlerCompleted}/>
-                <Link className={countdown ? 'link__active' : 'link__inactive'} to={`/ProductDetail/${id}`}>{button}</Link>
+                <Link className={countdown ? 'link__active' : 'link__inactive' } to={`/ProductDetail/${id}`}>{button}</Link>
         </div>
     );
 }
