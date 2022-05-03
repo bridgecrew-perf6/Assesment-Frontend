@@ -29,3 +29,20 @@
     border-radius: 1.4rem;
     color: #fff;
 }
+.link__inactive {
+    pointer-events: none;
+    cursor: default;
+    padding: 0 0.5rem;
+    border: darkgreen;
+    background-color: black;
+    border-radius: 1.4rem;
+    color: #fff;
+  }
+.link__active{
+    padding: 0 0.5rem;
+    border: darkgreen;
+    background-color: darkgreen;
+    border-radius: 1.4rem;
+    color: #fff;
+    width: max-content;
+}
