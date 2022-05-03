@@ -12,20 +12,13 @@ function Home (){
     useEffect(()=>{
         fetchProducts();
     }, []);
-
-
-
     return(
         <div className="home">
             <h1 className="titleproducts">PRODUCTS</h1>
             <div className="productscard">
             {products.map((product) => <ProductCard key={product.id} image= {product.image} title ={product.title} id={product.id}  /> )}
             </div>
-                      
-
         </div>
     );
 }
-
-
 export default Home;

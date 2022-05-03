@@ -13,8 +13,6 @@ function ProductDetail (){
     useEffect(()=>{
         fetchProduct();
     }, []);
-    
-   
     return(
         <div className="productdetail">
           <div>{product.title}</div>
@@ -31,6 +29,4 @@ function ProductDetail (){
         </div>
     );
 }
-
-
 export default ProductDetail;

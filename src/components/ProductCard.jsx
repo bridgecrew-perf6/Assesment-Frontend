@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import Countdown from 'react-countdown';
 import "./ProductCard.css";
 
-
 function ProductCard ({id, title, image}){
     const [countdown, setCountdown] = useState(true);
     const [button, setButton]=useState('Detalle del producto');
@@ -12,8 +11,6 @@ function ProductCard ({id, title, image}){
         setCountdown(false);
         setButton('La oferta expiró');
       };
-
-
     return(
         <div className="card">              
                 <img className="imagecard" src={image} alt=""/>
@@ -23,7 +20,6 @@ function ProductCard ({id, title, image}){
         </div>
     );
 }
-
 ProductCard.propTypes = {
     image: PropTypes.string,
     title: PropTypes.string,
